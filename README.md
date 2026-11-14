@@ -292,9 +292,9 @@ Seluruh query Cypher menggunakan parameter, bukan penggabungan langsung input pe
 Contoh tampilan menu:
 
 ```text
-==========================================
+
         SISTEM REKOMENDASI FILM
-==========================================
+
 1. Tambah pengguna
 2. Tambah film favorit pengguna
 3. Lihat rekomendasi film
@@ -380,3 +380,5 @@ Rekomendasi dapat kosong jika belum ada pengguna lain dengan film favorit yang s
 - Menghapus film favorit hanya menghapus relasi `LIKES`, bukan node `Movie`.
 - Program tidak mereset database.
 - Data pengujian menggunakan awalan khusus dan dibersihkan secara terpisah.
+# CineGraph
+Aplikasi Sistem Rekomendasi Film menggunakan Python, Neo4j, dan TMDB API.
