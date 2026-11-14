@@ -1,0 +1,4 @@
+neo4j>=5.14,<7
+python-dotenv>=1.0,<2
+customtkinter>=5.2,<6
+Pillow>=10,<13
